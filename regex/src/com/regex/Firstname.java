@@ -7,11 +7,11 @@ import java.util.regex.Pattern;
 public class Firstname {
 
 	public static void main(String[] args) {
-		System.out.println("enter first name");
+		System.out.println("enterlast name");
 		Scanner sc=new Scanner(System.in);
-		String fName=sc.nextLine();
+		String lName=sc.nextLine();
 		Pattern pat=Pattern.compile("^[A-Z]{1}[a-z]{1,}");
-		Matcher matcher=pat.matcher(fName);
+		Matcher matcher=pat.matcher(lName);
 		boolean b=matcher.matches();
 		System.out.println(b);
 		
