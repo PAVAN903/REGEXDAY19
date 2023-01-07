@@ -14,8 +14,5 @@ public class PasswordSpecialchar {
 	Matcher mat=pat.matcher(Spassword);
 	boolean b=mat.matches();
 	System.out.println(b);
-	
-
 	}
-
-}
+    }
